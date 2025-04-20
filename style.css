@@ -1,0 +1,594 @@
+
+body {
+    background-image: url(nav.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.top-flex-container {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(228, 228, 228);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #673a94;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+.items {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.items:hover {
+    cursor: pointer;
+    color: #673a94;
+    text-decoration: underline;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.searchbar input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+.btn:hover {
+    background-color:#673a94;
+}
+.btnone {
+    padding: 8px 16px;
+    background-color:rgb(228, 228, 228) ;
+    color: rgb(14, 12, 12);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+.btnone:hover {
+    background-color:#673a94;
+}
+
+/* ----------- Responsive Styles ----------- */
+
+@media (max-width: 668px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .item-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .searchbar input {
+        width: 100%;
+    }
+}
+
+.heroSection{
+    height: 350px;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.headone{
+    font-size: 120px;
+    text-align: center;
+}
+
+.paraOne{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.healight{
+    color: #673a94;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50px;
+}
+
+.paraOne{
+    color: rgb(150, 150, 150);
+}
+
+.heroBtn {
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
+    height: 120px;            /* Full height of viewport, optional */
+  }
+  
+  .btnBox {
+    display: flex;
+    gap: 30px; /* space between buttons */
+  }
+
+.euro{
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    color: white;
+    background-color: #673a94;
+    border-radius: 35px;
+}
+
+.forwEuro{
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    color: #673a94;
+    border-color:  #673a94 ;
+    background-color: white;
+    border-radius: 35px;
+}
+
+.euro :hover{
+    cursor: pointer;
+}
+
+.forwEuro :hover{
+    cursor: pointer;
+    color: white;
+    background-color: #673a94;
+}
+
+.healightone{
+    color: #673a94;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.headfive{
+    display: flex;
+    justify-content: center;
+    color:   rgb(150, 150, 150);
+    margin-top: 80px;
+}
+
+.card-title i{
+    background-color: #673a94;
+    font-size: 50px;
+    color: white;
+    align-items: center;
+}
+.proBtn{
+    width: 200px;
+    background-color: #673a94;
+    color: aliceblue;
+    margin-top:50px;
+    margin-left: 10px;
+    align-items: center;
+    border-radius: 25px;
+    text-align: center;
+}
+.homesec2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .head3 {
+    max-width: 50%;
+  }
+  .secBtn i{
+    background-color: #673a94;
+    width: 40px;
+    color: white;
+    border-radius: 10px;
+
+  }
+  
+  .img1 img {
+    width: 700px ;
+    height: auto;
+    border-radius: 10px;
+  }
+  @media (max-width: 768px) {
+    .homesec2 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .head3, .img1 {
+      max-width: 100%;
+    }
+  
+    .img1 img {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  .secBtn .btnSec{
+    width: 250px;
+    background-color: #673a94;
+    color: white;
+    border-radius:35px ;
+    margin: 50px;
+  }
+  .head3{
+    margin: auto;
+    width: auto;
+
+  }
+  .headPrice{
+    text-align: center;
+    color:  rgb(150, 150, 150);
+  }
+  .head4{
+    font-size: 40px;
+  }
+.para3{
+    font-size: 15px;
+    color:  rgb(150, 150, 150);
+    text-align: center;
+}
+.btn3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+ .icon3{
+    width: 50px;
+    background-color: #673a94;
+    color: white;
+    border-radius: 10px;
+}
+.mutedBtn button{
+    background-color: #673a94;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.cardIcon i{
+    width: 45px;
+    background-color: #673a94;
+    color: white;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.card-title i{
+    width: 65px;
+    background-color: #673a94;
+    color: white;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.icon{
+    color: #673a94;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.secCard{
+    
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center; /* optional, to center them */
+        margin-top: 50px;   
+}
+.headSec4{
+    margin-top: 50px;
+    display: block;
+    justify-content: space-between;
+    text-align: center;  
+}
+.headSec4 h1{
+    font-size:50px ;
+}
+.maineuro{
+    padding: 20px;
+    width: 1050px;
+    position: relative;
+    margin: auto;
+}
+.euroCard h1 {
+    height:auto ;
+    background-color: #673a94;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    border: 2px solid black;
+}
+.euroCard  :hover{
+    cursor: pointer;
+    background-color: #8763ac;
+}
+
+@media (max-width: 468px) {
+    .head5 {
+      font-size: 1.5rem;
+    }
+  
+    .euroCard {
+      padding: 20px;
+    }
+  
+    .euroCard h2 {
+      font-size: 1.1rem;
+    }
+  }
+  .profile img{
+    width: 100px;
+    height: 100px;  
+    border-radius: 50px;
+    object-fit: cover;
+    border-color: white;
+}
+.profile span {
+    position: relative;
+    bottom: 20px;
+  
+}
+.profile {
+    display: flex;
+    flex-direction: column; /* Stack the profile items vertically */
+    align-items: center; /* Center the items horizontally */
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-color: white;
+    margin-bottom: 10px; /* Add space below the image */
+}
+
+.pro-name {
+    font-size: 24px; /* Adjust font size */
+    color: #333;
+}
+
+.desi {
+    font-size: 16px; /* Adjust font size */
+    color: rgb(180, 178, 178);
+    margin-top: 5px; /* Adjust the margin */
+}
+
+@media (max-width: 768px) {
+    .profile img {
+        width: 80px; /* Make the image smaller on mobile */
+        height: 80px;
+    }
+
+    .pro-name {
+        font-size: 20px; /* Smaller font size for mobile */
+    }
+
+    .desi {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+}
+
+.email-container{
+    margin-top: 60px;
+    position: relative;
+    text-align: center;
+}
+.email-box{
+    width: 80%;
+    margin: auto;
+    padding: 45px;
+    border-radius: 25px;
+    background-color: #673a94;
+    color: white;
+
+}
+.email-input {
+    outline: none;
+   
+} 
+.input {
+    background-color: #8763ac;
+    color:white;
+    border-radius: 10px;
+}
+.email-btn{
+    border-color: none;
+    background-color: #8763ac;
+    color: wheat;
+    border-radius: 10px;
+    text-align: center;
+}
+/* Container */
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 40px;
+    gap: 40px;
+  }
+  
+  /* Box inside container */
+  .about-box {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  /* Headings */
+  .head,
+  .about-head {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Paragraph / Links */
+  .about-para {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-para li {
+    margin-bottom: 8px;
+  }
+  
+  .about-para a {
+    color: rgb(119, 116, 116);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .about-para a:hover {
+    color: #8763ac;
+  }
+  
+  /* Social Icons */
+  .about-icon ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .about-icon li a {
+    font-size: 30px;
+    color: #8763ac;
+    transition: color 0.3s;
+  }
+  
+  .about-icon li a:hover {
+    color: #5e3e88;
+  }
+  /* ----------- Extra Responsive Tweaks ----------- */
+
+/* For hero text on smaller screens */
+@media (max-width: 768px) {
+    .headone {
+      font-size: 50px;
+    }
+  
+    .heroSection {
+      font-size: 20px;
+      margin-top: 40px;
+    }
+  
+    .btnBox {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .euro, .forwEuro {
+      width: 90%;
+    }
+  }
+  
+  /* Email section */
+  @media (max-width: 768px) {
+    .email-box {
+      padding: 25px;
+    }
+  
+    .input,
+    .email-btn {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+    }
+  
+    .email-box {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  /* Cards & Containers */
+  @media (max-width: 768px) {
+    .card-container,
+    .secCard {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .maineuro {
+      width: 95%;
+      padding: 10px;
+    }
+  }
+  
+  /* Footer about section */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .about-box {
+      width: 100%;
+    }
+  }
+  
+  /* Profile responsiveness */
+  @media (max-width: 768px) {
+    .profile img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .desi {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  
+  
