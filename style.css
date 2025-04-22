@@ -5,10 +5,14 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     font-family: Arial, sans-serif;
-    overflow-x: hidden;
-
-    
+    overflow-x: hidden;  
+    position: relative;
+    overflow-x: hidden !important;  
 }
+html, body {
+  overflow-x: hidden;
+}
+
 
 * {
     margin: 0;
@@ -238,10 +242,11 @@ body {
   }
   
   .img1 img {
-    width: 700px ;
+    width: 100%;
+    max-width: 100%;
     height: auto;
-    border-radius: 10px;
   }
+  
   @media (max-width: 768px) {
     .homesec2 {
       flex-direction: column;
@@ -257,13 +262,15 @@ body {
       max-width: 400px;
     }
   }
-  .secBtn .btnSec{
+  .secBtn .btnSec {
     width: 250px;
     background-color: #673a94;
     color: white;
-    border-radius:35px ;
-    margin: 50px;
+    border-radius: 35px;
+    margin: 50px auto; /* Use auto to center without overflow */
+    display: block;     /* Ensure it's centered */
   }
+  
   .head3{
     margin: auto;
     width: auto;
