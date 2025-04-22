@@ -141,6 +141,8 @@ body {
   
   .btnBox {
     display: flex;
+    flex-wrap: nowrap;
+    margin-top: 25px;
     gap: 30px; /* space between buttons */
   }
 
