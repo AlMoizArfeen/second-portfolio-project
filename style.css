@@ -5,6 +5,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
+
+    
 }
 
 * {
@@ -330,11 +333,11 @@ body {
 .headSec4 h1{
     font-size:50px ;
 }
-.maineuro{
-    padding: 20px;
-    width: 1050px;
-    position: relative;
-    margin: auto;
+.maineuro {
+  width: 100%;
+  max-width: 1050px;
+  padding: 20px;
+  margin: auto;
 }
 .euroCard h1 {
     height:auto ;
@@ -525,6 +528,12 @@ body {
     .btnBox {
       flex-direction: column;
       align-items: center;
+    }
+    @media (max-width: 768px) {
+      .btnBox {
+        flex-direction: column;
+        align-items: center;
+      }
     }
   
     .euro, .forwEuro {
