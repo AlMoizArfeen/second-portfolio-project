@@ -141,7 +141,7 @@ body {
   
   .btnBox {
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
     margin-top: 25px;
     gap: 30px; /* space between buttons */
   }
