@@ -590,5 +590,30 @@ body {
       text-align: center;
     }
   }
-  
+  .headone {
+    font-size: 8vw; /* instead of 120px */
+  }
+  @media (max-width: 768px) {
+    .btnone,
+    .euro,
+    .forwEuro,
+    .btnSec,
+    .input,
+    .email-btn {
+      width: 100%;
+    }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 468px) {
+    .headone {
+      font-size: 40px;
+    }
+    .heroSection {
+      font-size: 16px;
+    }
+  }
+      
   
